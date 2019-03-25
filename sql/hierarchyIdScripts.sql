@@ -1,3 +1,5 @@
+use HierarchyIdTests
+
 SELECT * FROM [dbo].[SimpleDemo]
 
 SELECT CAST(Level AS nvarchar(100)) AS [Converted Level], *   
@@ -5,7 +7,7 @@ FROM SimpleDemo ORDER BY Level;
 
 select 
     *, 
-    level.GetLevel() 
+    level.GetLevels() 
 from
     dbo.SimpleDemo
 

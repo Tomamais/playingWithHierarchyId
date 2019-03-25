@@ -1,3 +1,5 @@
+use HierarchyIdTests;
+
 CREATE TABLE SimpleDemo  
 (Level hierarchyid NOT NULL,  
 Location nvarchar(30) NOT NULL,  
